@@ -32,3 +32,16 @@ package-lock.json
 # IDE files
 .vscode/
 .idea/
+
+# Secrets
+.env
+*.env
+
+# Dependencies
+node_modules/
+dist/
+build/
+
+# Temporary files
+tmp/
+.DS_Store
