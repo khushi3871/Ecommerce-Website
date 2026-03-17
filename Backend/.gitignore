@@ -1,1 +1,34 @@
-node_modules
+# Dependencies
+node_modules/
+
+# Environment variables (VERY IMPORTANT 🚨)
+.env
+Backend/.env
+Frontend/.env
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Temporary files
+tmp/
+temp/
+Backend/tmp/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Build folders (frontend frameworks)
+dist/
+build/
+
+# Package lock (optional - discuss below)
+package-lock.json
+
+# IDE files
+.vscode/
+.idea/
